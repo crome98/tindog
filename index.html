@@ -29,13 +29,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">Contact</a>
+                <a class="nav-link fs-5" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">Pricing</a>
+                <a class="nav-link fs-5" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">Download</a>
+                <a class="nav-link fs-5" href="#cta">Download</a>
               </li>
             </ul>
           </div>
@@ -93,31 +93,32 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid" data-bs-interval="3000">
+            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item container-fluid" data-bs-interval="3000">
+            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
-    </div>
   </section>
 
 
   <!-- Press -->
   <section id="press">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
           <img class="press-images" src="images/techcrunch.png" alt="tc-logo">
@@ -132,6 +133,7 @@
           <img class="press-images" src="images/mashable.png" alt="mashable-logo">
         </div>
       </div>
+    </div>
   </section>
 
 
@@ -139,11 +141,11 @@
 
   <section id="pricing">
 
+  <div class="container-fluid">
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
     <div class="row">
-
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
@@ -154,6 +156,7 @@
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
+            <p><br></p>
             <div class="d-grid gap-0">
               <button class="pricing-btn free-btn btn btn-outline-secondary btn-lg" type="button">Sign Up</button>
             </div>
@@ -171,6 +174,7 @@
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
+            <p><br></p>
             <div class="d-grid gap-0">
               <button class="pricing-btn nonfree-btn btn btn-lg" type="button">Sign Up</button>
             </div>
@@ -197,6 +201,8 @@
       </div>
 
     </div>
+  </div>
+
 
   </section>
 
@@ -219,7 +225,7 @@
     <a href="https://facebook.com"><i class="footer-icon fab fa-facebook-f"></i></a>
     <a href="https://instagram.com"><i class="footer-icon fab fa-instagram"></i></a>
     <a href="#"><i class="footer-icon fas fa-envelope"></i></a>
-    <p>© Copyright 2018 TinDog</p>
+    <p class="copyright">© Copyright 2018 TinDog</p>
   </footer>
 
   <!-- JS script to make the elements from bootstrap works, without it, the behaviors of elements can not be achieved -->
