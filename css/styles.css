@@ -1,0 +1,259 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  /* Layout */
+  margin: 15px 0;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+
+/* Title section */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-column {
+  /* this one is positioned as relative in order to make it becomes the nearest ancestor for its items (iphone image)
+  If not set, the nearest ancestor of the iphone image will be the viewport because none are positioned to value different to static */
+  position: relative;
+}
+
+/* navbar style */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+/* navbar style */
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+/* Download buttons */
+
+/* Iphone image styles */
+.iphone {
+  /* shape */
+  width: 50%;
+
+  /* position */
+  position: absolute;
+  right: 20%;
+
+  /* Rotation */
+  transform: rotate(20deg);
+}
+/* Iphone image styles */
+
+#title {
+  /* text */
+  color: #FFFFFF;
+  background-color: #FF4C68;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+
+    transform: rotate(0);
+  }
+}
+
+/* Title section */
+
+/* ########################################################################## */
+
+/* Features section */
+.features-box {
+  /* text */
+  text-align: center;
+
+  /* shape */
+  margin: 30px;
+  padding: 5%;
+}
+
+/* styles for icons */
+.icon {
+  color: #EF8172;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+/* styles for icons */
+
+#features {
+  padding: 8% 10%;
+  background-color: #FFFFFF;
+
+  /* position */
+  position: relative;
+}
+/* Features section */
+
+/* ########################################################################## */
+
+/* testimonials section */
+.testimonials-image {
+  /* shape */
+  width: 10%;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.carousel-item {
+  padding: 8% 10%;
+}
+
+#testimonials {
+  /* Text */
+  color: #FFFFFF;
+  text-align: center;
+
+  background-color: #FF4C68;
+}
+/* testimonials section */
+
+/* ########################################################################## */
+
+/* press section */
+.press-images {
+  width: 20%;
+  margin: 20px 20px 15px;
+}
+
+#press {
+  text-align: center;
+
+  background-color: #FF4C68;
+  padding: 0 10% 8%;
+}
+/* press section */
+
+/* ########################################################################## */
+
+/* pricing section */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.free-btn {
+  /* text */
+  color: #000000;
+  font-weight: 700;
+
+  border-color: #8F8F8F;
+}
+
+.free-btn:hover {
+  /* text */
+  color: #FFFFFF;
+
+  border-color: #8F8F8F;
+  background-color: #FF4C68;
+}
+
+.nonfree-btn {
+  /* text */
+  color: #FFFFFF;
+  font-weight: 700;
+
+  border-color: #8F8F8F;
+  background-color: #EF8172;
+}
+
+.nonfree-btn:hover {
+  border-color: #8F8F8F;
+  background-color: #FF4C68;
+}
+
+
+#pricing {
+  font-family: 'Montserrat';
+  text-align: center;
+
+  padding: 8% 10%;
+}
+/* pricing section */
+
+/* ########################################################################## */
+
+/* Call to Action section */
+.cta-h3 {
+  color: #FFFFFF;
+}
+
+
+#cta {
+  text-align: center;
+
+  background-color: #FF4C68;
+  padding: 8% 10%;
+}
+
+/* Call to Action section */
+
+/* ########################################################################## */
+
+/* footer */
+
+.footer-icon {
+  margin: 1%;
+}
+
+#footer {
+  /* text */
+  text-align: center;
+
+  background-color: #FFFFFF;
+
+  /* layout */
+  padding: 4% 10%;
+}
+
+/* footer */
